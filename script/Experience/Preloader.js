@@ -51,7 +51,7 @@ export default class Preloader extends EventEmitter {
             duration: 1,
           })
           .to(this.room.position, {
-            x: -2.5,
+            x: -1.75,
           });
       } else {
         this.timeline
@@ -249,7 +249,7 @@ export default class Preloader extends EventEmitter {
   update() {
     if (this.scaleFlag) {
       if (this.device === "desktop") {
-        this.room.position.set(-2.5, -0.1, 0);
+        this.room.position.set(-1.75, -0.1, 0);
         this.room.scale.set(0.03, 0.03, 0.03);
       } else {
         this.room.position.set(0, -0.1, -1.5);
