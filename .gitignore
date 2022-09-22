@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 # assets
-public/models/*
-public/textures/*
+
